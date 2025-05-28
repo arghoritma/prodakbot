@@ -109,7 +109,7 @@ export default function ChatInterface() {
   };
 
   return (
-    <Card className="w-full max-w-2xl h-[calc(100vh-4rem)] min-h-[400px] max-h-[700px] shadow-2xl flex flex-col rounded-xl overflow-hidden border-border">
+    <Card className="w-full max-w-2xl flex-1 flex flex-col rounded-xl overflow-hidden border-border shadow-2xl min-h-[350px] sm:min-h-[450px]">
       <CardHeader className="bg-primary text-primary-foreground p-4 border-b border-primary-foreground/20">
         <CardTitle className="text-xl sm:text-2xl font-semibold flex items-center gap-3">
           <BotIcon size={28} /> ProdakBot
